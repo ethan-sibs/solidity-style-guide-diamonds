@@ -134,7 +134,7 @@ Diamond initialiser contracts may have state variables which do not conform to t
 
 Initialiser functions should be separate for each facet contract. For example, a diamond initialiser contract may include one intialiser function for its allowlist facet, one initialiser function for its AdminPrivilegesFacet, and so on.
 
-Functions should follow this naming convention: `initialiseFacetName`. For example: `initialiseAllowlistFacet`.
+Functions should follow this naming convention: `initFacetName`. For example: `initAllowlistFacet`.
 
 Functions should not have arguments.
 
